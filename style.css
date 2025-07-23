@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    color: #24292e;
+    background-color: #fffaf0;
+}
+a{
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 40px auto;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-align: center;
+}
+.site-title{
+    line-height: 1px;
+    font-size: 2rem;
+}
+.site-title a{
+    display: block;
+}
+
+.sec-title{
+    font-size: 1.5rem;
+    margin-bottom: 65px;
+    
+}
+
+.icon-home{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.icon-hosi{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.icon-kalender{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.icon-insta{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.icon-otoiawase{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.icon-hatena{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+
+
+.sec-p1{
+    text-align: left;
+}
+
+.sec-p2{
+    text-align: center;
+}
+
+.instagram-wrapper{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fffaf0;
+    border-bottom:1px solid black ;
+}
+
+#header-bg{
+    width: 90%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 4%;
+}
+
+#header ul{
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 10px 0 0 0;
+    
+    
+}
+#header li{
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    margin-left: 40px;
+    font-weight: 500;
+    font-family:"WDXL Lubrifont JP N", sans-serif ;
+    
+}
+#header li a{
+    color: #24292e;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+#header li a:hover{
+    opacity: 0.7;
+}
+#header h1{
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#mainvisual{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#mainvisual img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+}
+#about{
+    text-align: center;
+}
+
+#about p{
+    
+    width: 66%;
+    margin: auto;
+}
+
+#about h2{
+    margin-bottom:  40px;
+    background-color: rgba(255, 255, 0, 0.205);
+}
+
+
+#footer{
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .wrapper{
+        margin-bottom: 70px;
+    }
+    .site-title{
+        margin-bottom: 20px;
+    }
+    .sec-title{
+        margin-bottom: 40px;
+    }
+
+
+#header{
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+#header li{
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+#header li:first-child{
+    margin-left: 0;
+}
+}
