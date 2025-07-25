@@ -45,7 +45,7 @@ li{
     margin-bottom: 4px;
 }
 .icon-hosi{
-    width: 40px;
+    width: 80px;
     height: 40px;
     margin-bottom: 4px;
 }
@@ -60,7 +60,7 @@ li{
     margin-bottom: 4px;
 }
 .icon-otoiawase{
-    width: 40px;
+    width: 80px;
     height: 40px;
     margin-bottom: 4px;
 }
@@ -73,10 +73,17 @@ li{
 
 .sec-p1{
     text-align: left;
+    padding-bottom: 30px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: -2px 0px 3px rgba(0,0,0,0.2);
 }
 
 .sec-p2{
-    text-align: center;
+    text-align: left;   
 }
 
 .instagram-wrapper{
@@ -120,20 +127,31 @@ li{
 
 #header ul{
     display: flex;
-    gap: 40px;
+    gap: 10px;
     padding: 0;
     margin: 10px 0 0 0;
-    
-    
+   
 }
+
+
+
 #header li{
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0.2em;
-    margin-left: 40px;
-    font-weight: 500;
+    font-weight: 600;
     font-family:"WDXL Lubrifont JP N", sans-serif ;
-    
+   
 }
+
+#header ul li a{
+    border-left: 1.5px solid #ccc;
+    padding:0 0 10px 15px;
+}
+
+#header ul li:first-child a{
+    border-left: none;
+}
+
 #header li a{
     color: #24292e;
     display: flex;
@@ -149,7 +167,6 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 
@@ -172,9 +189,10 @@ li{
 }
 
 #about p{
-    
-    width: 66%;
+    max-width: 100%;
+    width: 86%;
     margin: auto;
+      
 }
 
 #about h2{
